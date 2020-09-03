@@ -33,7 +33,7 @@ def calcultor_main():
             result = int(a)/int(b)
         except:
             result='Please Enter Valid Inputs'
-    return render_template("calci.html",resp=result)
+    return render_template("index.html",resp=result)
 
 
 
