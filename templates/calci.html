@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculalor</title>
+</head>
+<body>
+<center><h1>Calculator</h1></center><br><br>
+{{resp}}<br><br>
+
+<form action="http://localhost:5000/calculator/" method="post">
+    <div>
+    First Number : <input type="text" name='fnum' required><br><br>
+    Second Number : <input type="text" name='snum' required><br><br>
+        Option : <select name="calc">
+        <option value="0">------Select-----</option>
+        <option value="1">Sum</option>
+        <option value="2">Subtraction</option>
+        <option value="3">Multiply</option>
+        <option value="4">Division</option>
+    </select><br><br>
+    <input type="submit"> <br><br>
+        </div>
+
+</form>
+</body>
+</html>
